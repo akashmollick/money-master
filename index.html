@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Bank of Bap</title>
+  </head>
+  <body>
+    <header >
+      <h1 class="text-5xl  text-center mt-7 mb-5">
+         <span class="text-orange-400 font-bold">
+          money master
+        </span>
+      </h1>
+    </header>
+    <main>
+      <section class="bg-green-500  w-1/2 mx-auto mt-6 p-8 rounded-lg hover:bg-purple-500">
+        <div class="text-center">
+          <h3 class="mb-3 font-semibold">income</h3>
+        <div>
+          <label class="font-semibold">income:</label>
+          <input type="text" class="mb-3 w-4/12 rounded-lg" id="income"><br>
+          <div class="text-center">
+            <h3 class="mb-3 font-semibold">expense</h3>
+          <div>
+            <label class="font-semibold">food:</label>
+          <input type="text" class="mb-3 w-4/12 rounded-lg" id="food"><br>
+          <label class="font-semibold">rent:</label>
+          <input type="text" class="mb-3 w-4/12 rounded-lg" id="rent"><br>
+          <label class="font-semibold">cloths:</label>
+          <input type="text" class="mb-3 w-4/12 rounded-lg" id="cloths"><br>
+          <button id="btn-submit" class="w-32 bg-blue-500 rounded-lg h-8 font-semibold text-purple-50 mb-5">submit</button><br>
+          <div class="text-center">
+            <h3 class="mb-3 font-semibold">total expense: <span id="tExpense"></span></h3>
+          <div>
+            <div class="text-center">
+              <h3 class="mb-3 font-semibold">balance: <span id="tBalance"></span></h3>
+            <div>
+              <label for="">save:</label>
+          <input type="text" class="mb-3 w-2/12 rounded-lg" id="saveingId">
+          <label for="">%</label>
+          
+          <button id="btn-save" class="w-32 bg-blue-500 rounded-lg h-8 font-semibold text-purple-50">save</button>
+          <div class="text-center">
+            <h3 class="mb-3 font-semibold">saving amount: <span id="tSave"></span></h3>
+          <div>
+            <div class="text-center">
+              <h3 class="mb-3 font-semibold"> remaining balance :<span id="tRemain"></span></h3>
+            <div>
+        </div>
+        </div>
+
+      </section>
+    </main>
+    <script src="js/login.js"></script>
+  </body>
+</html>
